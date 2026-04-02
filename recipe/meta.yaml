@@ -1,5 +1,5 @@
 {% set name = "geoPFA" %}
-{% set version = "0.0.18" %}
+{% set version = "0.0.20" %}
 {% set python_min = "3.11" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/geopfa-{{ version }}.tar.gz
-  sha256: b89e4553f1470c13733e3e8398e0e6aec0dcc35dbec6df40f131417738dfcc31
+  sha256: c2a9a6a4b6e551b65b339eda5022f22c8d472495f7d8067ede114acef7a37bb2
 
 build:
   noarch: python
